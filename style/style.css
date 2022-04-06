@@ -48,7 +48,6 @@ header
     outline-color: rgb(64, 66, 66);
     outline-width: 2px;
     outline-style: solid;
-
     display:flex;
 }
 .profile img 
@@ -62,21 +61,39 @@ header
     width : 200px;
     height : 200px;
 }
+.profile a
+{
+    text-align: center;
+}
+.profile-name-div
+{
+    width : 100%;
+    height : 100px;
+
+    display:flex;
+}
 .profile-name
 {
-    text-align: center;
-    
-    max-height: 50px;
-    margin-left: 12%;
-    margin-top:60px;
-    font-size: 30px;
-    font-weight: bold;
-}
-.profile-lvl
-{
-    text-align: center;
-    
-    height : 50px;
-    margin-left: 10%;
+    margin-left: 13%;
+
     font-size: 24px;
+    align-self: center;
+}
+.profile-name :first-line
+{
+    font-size: 32px;
+}
+.profile-stats-div
+{
+    width : 100%;
+    height : 100px;
+
+    display:flex;
+}
+.profile-stats
+{
+    margin-left: 13%;
+
+    font-size: 24px;
+    align-self: flex-end;
 }
