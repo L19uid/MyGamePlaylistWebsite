@@ -127,12 +127,18 @@ header
   }
   .top-games
   {
+      margin-top: 40px;
       width:100%;
-      height:250px;
+      height:300px;
 
       display:flex;
   }
-  .most-played-game
+  .most-interacted-game
   {
-      
+      height : 280px;
+      width : 250px;
+
+      margin-left: 37px;
+
+      background-color: white;
   }
