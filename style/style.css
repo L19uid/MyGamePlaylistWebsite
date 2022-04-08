@@ -49,10 +49,8 @@ header
     outline-width: 2px;
     outline-style: solid;
 }
-.profile img 
+.profile-pfp 
 {
-    margin-left: 50px;
-
     outline-color: rgb(64, 66, 66);
     outline-width: 2px;
     outline-style: solid;
@@ -106,10 +104,11 @@ header
 {
     display:flex;
     
-    width:650px;
+    width:700px;
     height:50px;
 }
-.circle {
+.circle 
+{
     height: 50px;
     width: 50px;
 
@@ -121,24 +120,81 @@ header
     float:left;
     margin-top: 50px;
   }
-  .circle div{
+  .circle div
+  {
     padding-top:13px;
     padding-left:40%;
   }
   .top-games
   {
-      margin-top: 40px;
-      width:100%;
-      height:300px;
+    margin-top: 40px;
+    width:100%;
+    height:300px;
 
-      display:flex;
+    display:flex;
   }
   .most-interacted-game
   {
-      height : 280px;
-      width : 250px;
+    height : 300px;
+    width : 250px;
 
-      margin-left: 37px;
+    margin-left: 37px;
 
-      background-color: white;
+    background-color:  rgb(64, 66, 66);
+
+    border-width: 1px;
+    border-color: rgb(64, 66, 66);
+    border-style: solid;
+  }
+  .most-interacted-game-name
+  {
+    height : 50px;
+    width : 250px;
+
+    background-color:  rgb(16, 17, 17);
+
+    outline-width: 1px;
+    outline-color: rgb(64, 66, 66);
+    outline-style: solid;
+
+    text-align: center;
+}
+  .most-interacted-game-name div
+  {
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    font-size: 24px;
+  }
+  .most-interacted-game-info
+  {
+    margin-top:220px;
+    margin-left:25px;
+
+    height : 30px;
+    width : 200px;
+
+    background-color:  rgb(16, 17, 17);
+
+    outline-width: 1px;
+    outline-color: rgb(64, 66, 66);
+    outline-style: solid;
+
+    text-align: center;
+    z-index: 1;
+  }
+  .most-interacted-game-info div
+  {
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+  .steam-link
+  {
+    margin-top: 55px;
+    margin-right: 50px;
+
+    float:right;
+
+    width: 50px;
+    height: 50px;
   }
