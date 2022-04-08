@@ -198,3 +198,57 @@ header
     width: 50px;
     height: 50px;
   }
+  .game-lists
+  {
+    margin-top: 100px;
+    width:100%;
+    height:400px;
+
+    display: flex;
+  }
+  .game-list
+  {
+    margin-left: 5%;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    height:400px;
+  }
+  .game-list-item
+  {
+    width:300px;
+    height:30px;
+
+    margin-top: 5px;
+  }
+  .game-list-item-name
+  {
+    outline-width: 1px;
+    outline-color: rgb(64, 66, 66);
+    outline-style: solid;
+
+    text-align: center;
+
+    width:300px;
+    height:30px;
+
+    padding-top:5px;
+
+    margin-top: 5px;
+  }
+  .game-list-item-rating
+{
+  float:right;
+  outline-width: 1px;
+  outline-color: rgb(64, 66, 66);
+  outline-style: solid;
+
+  text-align: center;
+
+  width:50px;
+  height:30px;
+
+  padding-top:5px;
+
+  margin-top: 5px;
+}
